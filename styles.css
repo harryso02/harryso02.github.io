@@ -1,0 +1,192 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  box-sizing: border-box;
+  color: #1c232d;
+}
+
+.header{
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 4em;
+}
+
+.header nav{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  background: #1c232d;
+}
+
+.header nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin-left: 2em;
+  margin-right: 3em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.header nav ul li a{
+  font-family: Lato;
+  font-style: normal;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  color: #eee9e6;
+}
+
+.header nav ul li a:hover{
+  color:#f48b0c;
+}
+
+.column{
+  float: left;
+  padding-top: 5em;
+  padding-left: 5em;
+  padding-right: 5em;
+  line-height: 1.5;
+}
+
+.column.left{
+  width: 50%;
+  text-align: center;
+}
+
+.column.right{
+  width: 50%;
+  text-align: right;
+}
+
+.column.right h1{
+  font-family: Montserrat;
+  font-size: 2.5em;
+  font-weight: normal;
+  line-height: 2.3;
+  padding-top: 0.75em;
+  padding-right: 1.5em;
+}
+
+.column.right h1 span{
+  font-weight: bold;
+  font-family: Montserrat;
+}
+
+.column.right h4{
+  font-family: Montserrat;
+  font-size: 1.25em;
+  text-align: right;
+  font-weight: normal;
+  padding-bottom: 2em;
+  padding-right: 3em;
+}
+
+.row:after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.img1{
+  width: 21em;
+}
+
+.column.right table{
+  width: 100%;
+  padding-top: 2.8em;
+}
+
+.column.right table tr td{
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.icon{
+  text-align: left;
+  padding-top: 0.5em;
+}
+
+.linkedin{
+  width: 3em;
+}
+
+.github{
+  width: 3em;
+}
+
+@media screen and (max-width:1000px) {
+  .column.left, .column.right {
+    width: 100%;
+  }
+}
+
+.bio{
+  padding-left: 8.5em;
+  padding-right: 8.5em;
+  padding-top: 3em;
+  width: 100%;
+}
+
+.bio h2{
+  font-weight: bold;
+  font-size: 2em;
+  font-family: Montserrat;
+  line-height: 2.3;
+}
+
+.bio p{
+  font-size: 1.12em;
+  font-family: Montserrat;
+  line-height: 1.5;
+}
+
+.testi{
+  padding-left: 8.5em;
+  padding-right: 8.5em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  width: 100%;
+}
+
+.testi h2{
+  font-weight: bold;
+  font-size: 2em;
+  font-family: Montserrat;
+  line-height: 2.3;
+}
+
+.quote{
+  border-left: solid;
+  border-left-color: #f48b0c;
+}
+
+.quote p{
+  font-size: 1.12em;
+  font-family: Montserrat;
+  line-height: 1.5;
+  padding-left: 2em;
+  font-weight: lighter;
+}
+
+.mark{
+  width: 1em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.testi h6{
+  font-family: Lato;
+  font-size: 1em;
+  padding: 1em;
+  text-align: right;
+  font-style: italic;
+}
+
+.end{
+  width: 100%;
+  height: 4em;
+  background: #1c232d;
+}
